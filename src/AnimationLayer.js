@@ -1,4 +1,7 @@
 var AnimationLayer = cc.Layer.extend({
+	spriteSheet:null,
+	runningAction:null,
+	sprite:null,
 	ctor:function(){
 		this._super();
 		this.init();
